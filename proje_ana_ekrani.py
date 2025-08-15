@@ -26,7 +26,7 @@ def anamenu():
     elif secim == 1:
         print("Hesaplamalari seçtiniz.")
         import hesaplamalar
-        hesaplamalar.hesapmenu
+        hesaplamalar.hesapmenu()
         
     elif secim == 2: 
         print("Oyunlar seçtiniz.")
@@ -35,10 +35,10 @@ def anamenu():
     elif secim == 3:
         print("Cizimleri seçtiniz.")
         import cizimler
-        cizimler.cizim_menu
+        cizimler.cizim_menu()
     
     anamenu()
-        
+
 selamla()
 anamenu()
 
