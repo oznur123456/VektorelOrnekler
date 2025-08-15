@@ -18,7 +18,7 @@ def anamenu():
     secim = input()
     print("Seçiminiz:",secim,"idi.")
 
-    if secim<1 or secim>10:
+    if secim < 1 or secim > 10:
         print("Secim yanlis. 1-10 arasi bir deger giriniz.")
         anamenu()
 
