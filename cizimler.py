@@ -21,13 +21,23 @@ def kareciz():
     for xx in range(4):
         turtle.forward(100)
         turtle.right(90)
-        kareciz()
+        turtle.forward(100)
+        turtle.right(90)
+        turtle.forward(100)
+        turtle.right(90)
+        turtle.forward(100)
+        turtle.right(90)
 
 def ucgenciz():
     import turtle
     for a in range(3):
         turtle.forward(100)
         turtle.right(120)
-        ucgenciz()
+        turtle.forward(100)
+        turtle.right(120)
+        turtle.forward(100)
+        turtle.right(120)
+       
+       
 
 cizim_menu()
