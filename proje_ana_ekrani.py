@@ -1,4 +1,4 @@
-def selamla: print("Merhaba!")
+def selamla(): print("Merhaba!")
 def anamenu():
     print("╔═════════════════════╗")
     print("║    VEKTOREL APP     ║")
@@ -23,17 +23,17 @@ def anamenu():
         print("Secim yanlis. 1-10 arasi bir deger giriniz.")
         anamenu()
 
-    if secim == "1":
+    elif secim == 1:
         print("Hesaplamalari seçtiniz.")
+        
+    elif secim == 2: 
+        print("Oyunlar seçtiniz.")
         import proje_oyunlar_menusu
         
-    if secim == "2": print("Oyunlar seçtiniz.")
-
 selamla()
 anamenu()
 
-import oyunlar
-import cizimler
+
 
 
 
