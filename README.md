@@ -13,4 +13,7 @@
 <h6>Altıncı Başlık</h6>
 
 <img src="sea.png" alt="resme alternatif yazı">
+
+<p>"Bu ekranda secimlerinizi yapiniz."<p>
+
 <img height = "70" src="sea.png" alt="resme alternatif yazı">
