@@ -12,23 +12,22 @@ def cizim_menu():
     print("║  Seçiminiz nedir?   ║")
     print("╚═════════════════════╝")
 
-    s = input("Seçimiz?")
-    if s=="1": kareciz()
-    if s=="2": desenciz()
-    if s=="3": ucgenciz()
+    s = int(input("Seçiminiz?"))
+    if s== 1: kareciz()
+    if s==3: ucgenciz()
     
 def kareciz():
     import turtle
     for xx in range(4):
         turtle.forward(100)
         turtle.right(90)
-    kareciz()
+kareciz()
 
 def ucgenciz():
     import turtle
     for a in range(3):
         turtle.forward(100)
         turtle.right(120)
-    ucgenciz()
+ucgenciz()
 
 cizim_menu()

@@ -30,6 +30,10 @@ def anamenu():
     elif secim == 2: 
         print("Oyunlar seçtiniz.")
         import proje_oyunlar_menusu
+    
+    elif secim == 3:
+        print("Cizimleri seçtiniz.")
+        import cizimler
         
 selamla()
 anamenu()
