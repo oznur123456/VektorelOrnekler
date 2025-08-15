@@ -11,7 +11,4 @@ def topla():
 def cikar():
     print("5-3=",5-3)
 
-
-# bb_oyunlar.py dosyası içeriği 
-# print("Oyunlar isimli dosya kodları")
-# print("Oyunlar isimli dosya kodları1")
+hesapmenu()
