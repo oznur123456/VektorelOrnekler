@@ -32,5 +32,8 @@ def anamenu():
 selamla()
 anamenu()
 
+import oyunlar
+import cizimler
+
 
 
