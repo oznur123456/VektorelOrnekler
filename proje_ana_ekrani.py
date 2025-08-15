@@ -1,5 +1,7 @@
+def anamenu():
 
-#print("╔"+"═"*20+"╗")
+
+
 print("╔═════════════════════╗")
 print("║    VEKTOREL APP     ║")
 print("║                     ║")
@@ -14,12 +16,18 @@ print("║  8-                 ║")
 print("║  9-                 ║")
 print("║ 10-                 ║")
 print("║                     ║")
-print("║    Seçimiz nedir?   ║")
+print("║   Seçiminiz nedir?  ║")
 print("╚═════════════════════╝")
-secim = input() # input ile alınan bilgi string türündedir.
+secim = input()
 print("Seçiminiz:",secim,"idi.")
+
+
+if secim<1 or secim>10:
+    print("Secim yanlis. 1-10 arasi bir deger giriniz.")
+    anamenu()
+    
 if secim == "1":
-    print("Hesaplamaları seçtiniz.")
+    print("Hesaplamalari seçtiniz.")
     import proje_oyunlar_menusu
     
 if secim == "2": print("Oyunlar seçtiniz.")
