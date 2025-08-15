@@ -1,5 +1,6 @@
 
-#print("╔"+"═"*20+"╗")
+def oyun_menu():
+
 print("╔═════════════════════╗")
 print("║    OYUNLAR MENU     ║")
 print("║                     ║")
@@ -16,6 +17,8 @@ ss = input()
 if ss == "1" : print("Tetris başlıyor..")
 if ss == "6":
     import proje_ana_ekrani
+
+oyun_menu()
     
 
 
