@@ -19,15 +19,17 @@ def hesapmenu():
 
     s = int(input("Seçiminiz?"))
     if s == 1: topla()
-    if s == 2: cikar()
-    if s == 10:
+    elif s == 2: cikar()
+    elif s == 10:
         import proje_ana_ekrani
 
 def topla():
     print("2+5=",2+5)
+    hesapmenu()
 
 def cikar():
     print("5-3=",5-3)
+    hesapmenu()
 
 hesapmenu()
 

@@ -14,7 +14,9 @@ def cizim_menu():
 
     s = int(input("Seçiminiz?"))
     if s== 1: kareciz()
-    if s== 3: ucgenciz()
+    elif s== 3: ucgenciz()
+    elif s == 6:
+        import proje_ana_ekrani
     
 def kareciz():
     import turtle
@@ -27,6 +29,7 @@ def kareciz():
         turtle.right(90)
         turtle.forward(100)
         turtle.right(90)
+    cizim_menu()
 
 def ucgenciz():
     import turtle
@@ -37,7 +40,6 @@ def ucgenciz():
         turtle.right(120)
         turtle.forward(100)
         turtle.right(120)
+    cizim_menu()
        
-       
-
 cizim_menu()
