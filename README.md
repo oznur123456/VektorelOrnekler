@@ -13,3 +13,4 @@
 <h6>Altıncı Başlık</h6>
 
 <img src="sea.png" alt="resme alternatif yazı">
+<img height = "70" src="sea.png" alt="resme alternatif yazı">
