@@ -1,3 +1,4 @@
+def selamla: print("Merhaba!")
 def anamenu():
     print("╔═════════════════════╗")
     print("║    VEKTOREL APP     ║")
@@ -15,7 +16,7 @@ def anamenu():
     print("║                     ║")
     print("║   Seçiminiz nedir?  ║")
     print("╚═════════════════════╝")
-    secim = input()
+    secim = int(input())
     print("Seçiminiz:",secim,"idi.")
 
     if secim < 1 or secim > 10:
@@ -27,6 +28,9 @@ def anamenu():
         import proje_oyunlar_menusu
         
     if secim == "2": print("Oyunlar seçtiniz.")
+
+selamla()
+anamenu()
 
 
 
