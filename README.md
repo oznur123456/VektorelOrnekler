@@ -12,4 +12,4 @@
 <h5>Beşinci Başlık</h5>
 <h6>Altıncı Başlık</h6>
 
-<img src="sea" alt="resme alternatif yazı">
+<img src="sea.png" alt="resme alternatif yazı">
