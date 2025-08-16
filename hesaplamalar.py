@@ -1,7 +1,7 @@
 def hesapmenu():
-
+    print("\033[1;33;40m")
     print("╔═════════════════════╗")
-    print("║    HESAPLAMALAR     ║")
+    print("║\033[1;35;40m     HESAP MAK     \033[1;33;40m  ║")
     print("║                     ║")
     print("║  1-Toplama          ║")
     print("║  2-Cikarma          ║")
@@ -16,6 +16,7 @@ def hesapmenu():
     print("║                     ║")
     print("║   Seçiminiz nedir?  ║")
     print("╚═════════════════════╝")
+    print("\033[0m")  
 
     s = int(input("Seçiminiz?"))
     if s == 1: topla()

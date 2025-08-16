@@ -6,7 +6,7 @@ def oyun_menu():
     print("║                     ║")
     print("║  1-Tetris           ║")
     print("║  2-Adam asmaca      ║")
-    print("║  3-Yılan            ║")
+    print("║  3-Yilan            ║")
     print("║  4-                 ║")
     print("║  5-                 ║")
     print("║  6-Ana menüye dön   ║")
