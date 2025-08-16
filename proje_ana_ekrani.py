@@ -33,7 +33,7 @@ def anamenu():
     elif secim == 2: 
         print("Oyunlar seçtiniz.")
         import proje_oyunlar_menusu
-        oyunlar_menusu.oyunmenu()
+        proje_oyunlar_menusu.oyun_menu()
     
     elif secim == 3:
         print("Cizimleri seçtiniz.")
