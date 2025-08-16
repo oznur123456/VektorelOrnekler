@@ -39,6 +39,11 @@ def anamenu():
         print("Cizimleri seçtiniz.")
         import cizimler
         cizimler.cizim_menu()
+
+    elif secim == 6:
+        print("Not hesaplamayi seçtiniz.")
+        import not_hesaplama
+        not_hesaplama.notlar()
     
     anamenu()
 
