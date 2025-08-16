@@ -2,7 +2,7 @@ def selamla(): print("Merhaba!")
 def anamenu():
     print("\033[1;35;40m")
     print("╔═══════════════════════╗")
-    print("║\033[1;33;40m    VEKTOREL APP   \033[1;35;40m  ║")
+    print("║\033[1;33;40m     VEKTOREL APP    \033[1;35;40m  ║")
     print("║                       ║")
     print("║  1-Hesaplamalar       ║")
     print("║  2-Oyunlar            ║")
