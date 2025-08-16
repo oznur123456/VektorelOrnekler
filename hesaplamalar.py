@@ -1,7 +1,7 @@
 def hesapmenu():
     print("\033[1;33;40m")
     print("╔═════════════════════╗")
-    print("║\033[1;35;40m     HESAP MAK     \033[1;33;40m  ║")
+    print("║\033[1;35;40m   HESAP MAKINESI  \033[1;33;40m  ║")
     print("║                     ║")
     print("║  1-Toplama          ║")
     print("║  2-Cikarma          ║")

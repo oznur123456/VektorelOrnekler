@@ -1,6 +1,7 @@
 def cizim_menu():
+    print("\033[1;33;40m")
     print("╔═════════════════════╗")
-    print("║     CIZIM MENU      ║")
+    print("║\033[1;35;40m     CIZIM MENU    \033[1;33;40m  ║")
     print("║                     ║")
     print("║  1-Kare             ║")
     print("║  2-Dikdortgen       ║")
@@ -11,6 +12,7 @@ def cizim_menu():
     print("║                     ║")
     print("║  Seçiminiz nedir?   ║")
     print("╚═════════════════════╝")
+    print("\033[0m") 
 
     s = int(input("Seçiminiz?"))
     if s== 1: kareciz()

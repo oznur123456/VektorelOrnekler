@@ -1,8 +1,8 @@
 
 def oyun_menu():
-
+    print("\033[1;33;40m")
     print("╔═════════════════════╗")
-    print("║    OYUNLAR MENU     ║")
+    print("║\033[1;35;40m    OYUNLAR MENU   \033[1;33;40m  ║")
     print("║                     ║")
     print("║  1-Tetris           ║")
     print("║  2-Adam asmaca      ║")
@@ -13,6 +13,8 @@ def oyun_menu():
     print("║                     ║")
     print("║    Seçimiz nedir?   ║")
     print("╚═════════════════════╝")
+    print("\033[0m") 
+
     ss = input()
     if ss == "1" : print("Tetris başlıyor..")
     if ss == "6":
